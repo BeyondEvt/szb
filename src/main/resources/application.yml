@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: szb
+#  datasource:
+#    driver-class-name: org.h2.Driver
+##    url: jdbc:h2:mem:testdb
+#    url: jdbc:h2:file:/data/demo
+#    username: yxb
+#    password: 123456
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#  h2:
+#    console:
+#      enabled: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3336/yxb
+    username: admin
+    password: 123456
+
+
